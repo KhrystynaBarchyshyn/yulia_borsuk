@@ -5,19 +5,21 @@ header .row {
 }
 
 #logo {
-    border: 1px solid black;
     display: block;
-    padding: 25px 0px 25px 25px;
+    padding: 40px 0px 25px 25px;
+    text-decoration: none;
+    color: black;
 }
 
 nav {
-    padding: 25px 25px 25px 0px;
+    padding: 40px 25px 25px 0px;
 }
 
 nav ul {
     float:right;
     margin: 0;
     list-style-type: none;
+    padding-left: 0;
 }
 
 nav li {
