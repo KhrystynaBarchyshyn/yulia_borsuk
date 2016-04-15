@@ -37,9 +37,24 @@ nav li:first-child a {
     margin-left: 0px;
 }
 
+#nav_icon {
+    display:none;
+
+}
+
+.for_mobile {
+    display: none;
+}
+
 
 @media screen and (max-width: 767px) {
-    nav {
+    nav ul {
         display: none;
+    }
+    
+    #nav_icon {
+        display: block;
+        visibility: visible;
+        cursor: pointer;
     }
 }
